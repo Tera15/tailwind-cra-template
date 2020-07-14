@@ -1,3 +1,26 @@
+# THIS IS A BASIC CRA WITH TAILWINDCSS PRE CONFIGURED #
+
+I do not take credit for the set up config. I followed [THIS](https://daveceddia.com/tailwind-create-react-app/#production) blog post by Dave Ceddia. 
+
+I enjoy using Tailwindcss and just wanted an off the shelf solution up to reduce the set up time for side projects etc...
+
+This setup uses the npm-run-all package to run the tailwind build and CRA server in parallel and chokidar-cli package to watch for changes in tailwind and rebuild.
+
+### To use ###
+
+- clone this repo onto your local machine
+
+- npm install
+
+- the npm start script has been modified to also start up the chokidar-cli to watch for changes on the tailwindcss side, otherwise things should operate as normal as far as scripts are concerned.
+
+### [HERE](https://tailwindcss.com/docs/release-notes) is a link to the TailwindCSS docs. ###
+
+ENJOY!!!
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

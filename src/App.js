@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='h-screen flex justify-center items-center'>
+      <div className='w-1/2 h-40 border-solid border-4 rounded bg-blue-700 border-blue-700 items-center p-4 flex flex-col justify-around shadow-lg text-white'>
+        <h1 className='text-lg  tracking-widest '>A TailwindCss CRA setup</h1>
+        <p className='tracking-wide'>I followed <a className='underline text-xl uppercase' href="https://daveceddia.com/tailwind-create-react-app/#production">this</a> blog post by Dave Ceddia for the configuration.</p>
+        <p className='tracking-wide'> Hopefully you find this usefull!</p>
+      </div>
     </div>
   );
 }
