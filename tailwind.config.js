@@ -1,4 +1,5 @@
 module.exports = {
+  // @purgecss will scan these files and remove any unused css from output build
   purge: [
     'src/**/*.js',
     'src/**/*.jsx',
